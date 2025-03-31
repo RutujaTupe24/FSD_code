@@ -1,0 +1,141 @@
+what are different headings in html
+-----------------------------------------------------------------------------------
+
+what is css
+cascading style sheet
+-used to style designweb page
+-to apply css to an element we need style attribute
+
+
+syntax :
+<style" property : value">  </style>
+How to sue css
+
+1.inline css-->
+ syntax:
+ <style" property : value">  </style>
+ ---used to style specific element
+
+ 2.Internal
+ syntax:
+ <style>
+   selector{
+    property:value
+    property2:value
+   }
+
+   internal css have more property than external
+   inline haave more priority than internal
+ </style>
+
+
+ 3.external css
+ 1.create the file within css extension
+ 2.link the css file to the html file
+ 3.used to style multiple pages (mainly usege for large scale project)
+ syntax:
+ <html>
+ <head>
+ <link rel="stylesheet"href="filename.html">
+
+ </head>
+ </html>
+-----------------------------------------------------------------------------------
+how to use css (internal,external,and inline)
+what is selector
+element selector , id selector , class selector 
+what are inline elements
+what are block level elements
+how to convert "inline to block" and viceversa
+-------------------------------------------------------------------------
+what is margin
+ the space around the border
+ -margin attribute
+ syntax:
+  h1{
+    margin: 20px(all sides to bottom left right)
+    margin:20px(top-bottom) 15 px(left/right)
+    margin:20px(top) 30px(right) 40px(bottom) 50px(left)
+    margin-top
+    margin-bottom
+    margin-right
+    margin-left
+  }
+ shorthand
+
+       margin:top right bottom left
+------------------------------------------------------------------
+what is border
+border:
+
+--border attribute
+
+syntax:
+
+h1{
+    border:
+    border-style
+    border-size
+
+    border:size style color;
+
+    border-top:
+    border-bottom:
+    border-right:
+    border-left:
+    border-radius:for rounded corner
+ 
+}
+
+style:
+
+ 1.solid
+ 2.dotted
+ 3.double
+ 4.dashed
+ 5.groove
+ 6.ridge
+ 7.inset
+ 8.outset
+
+--------------------------------------------------------------
+what is padding
+---space around the content/ space between content and border
+--padding attribute
+
+syntax:
+  h1{
+    padding: 20px(all sides to bottom left right)
+    padding:20px(top-bottom) 15 px(left/right)
+    padding:20px(top) 30px(right) 40px(bottom) 50px(left)
+  
+    padding-top
+    padding-bottom
+    padding-right
+    padding-padding
+  }
+-------------------------------------------------------------
+box model in css
+ it describe how element are structured an spaced in web page
+ 
+ structure;
+
+  ---->content(text/image/video)
+  ----->padding(space around the content)
+  ------->border(outline around content)
+  --------->margin(space outside border,it helps to seprates elements)
+
+
+----------------------------------------------------------------------------------------
+based on display we have two types of elements
+
+block level element
+inline element
+
+1. Block level element:---->The element will occpy entire width of the page
+   eg: p,h1,,h2,h3,h4,h5,h6
+ 
+2. Inline level element:---->the element width occupy only that space
+
+if want to change the proprty of an element we use diaplay attribute
+------------------------------------------------------------------------------------------

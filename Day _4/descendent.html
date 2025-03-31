@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desecendent</title>
+</head>
+<body>
+    <h1> Desecendent Selector</h1>
+    <hr>
+    <!-- div is elemenet inside div is another element called small -->
+    <div>
+        <!-- this small is direct child -->
+        <small> this is  direct child small text which is selected</small>
+
+        <p>
+            <!-- this child is indirect child -->
+            <small> this is indirect small text which is selected </small>
+        </p>
+        <small>rutuja sunil tupe</small>
+        <small>sunil shobha</small>
+        
+
+    </div>
+    <style>
+        div >small{
+            background-color: palegreen;
+        }
+    </style>
+</body>
+</html>

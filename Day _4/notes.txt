@@ -1,0 +1,22 @@
+div-block level element
+span-inline level element
+------------------------------------------
+block level element---->div,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dt,dd
+                     -->it will occupy enitre width
+                     -->it respects height and width properti
+                     -->it respect margin and padding properties
+                     convert:display:inline
+
+ inline level elememt--> ,span,b,small
+                     --->it will occupy required space
+                     --->it wont respec height and width properties
+                     --->
+
+                    box-sizing is a property apply for all elements
+                    --default value is content-boxit is used to defne the width and height of an element
+
+
+
+                    -------------------------------------------------------------------
+
+
