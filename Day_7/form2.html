@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+    <style>
+        form{
+            border: 2px solid black;
+            width: 500px;
+            margin: 100px auto;
+        }
+
+        button{
+            color: aqua;
+            background-color: rgb(115, 11, 189);
+            margin: bottom 40px;
+
+        }
+        fieldset{
+            width: 40px;
+            padding: 20px;
+            margin: 50px auto;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <form action="" method="get">
+
+      <fieldset>
+        <legend>Basic Information</legend>
+        <label for=" fname">First Name</label>
+        <input type="text" id="Fname" name="fname"><br>
+
+        <br>
+        <label for="mname">Mname</label>
+        <input type="text" id="mname" name="mname"><br>
+        <br>
+
+        <label for=" lname">Last Name</label>
+        <input type="text"id="lname"  name="lname"><br><br>
+         
+        <label for="age">Age</label>
+        <input type="number" name="Age" id="age" min="10"max="45">
+
+
+      </fieldset>
+ <br>
+      <fieldset>
+        <legend>Contact Information</legend>
+        <label for="email"> Email</label>
+          <input type="email" id="email" name="email" >
+
+          <label for="phone">phone</label>
+          <input type="tel" id="phone" name="phone" placeholder="enter 10 digit number"  pattern="[0-9]{10}">
+         
+          <label for="pwd">Password</label>
+          <input type="password" name="pwd" id="pwd" required>
+
+          <br>
+          <label for="">Address</label>
+          <textarea name="Address" id="Address"></textarea>
+
+          <br><br>
+
+          <label for="gender">Gender</label>
+          <label for=""male>Male</label>
+          <input type="radio" name="male" id="male" value="male">
+          <label for="Female">Female</label>
+          <input type="radio" name="female" id="female" value="female">
+          <label for="Other">other</label>
+          <input type="radio" name="Other" id="other" value="Other">
+
+          <br><br>
+          <label for="DB">DOB</label>
+          <input type="datetime-local" name="DOB" id="DOB">
+
+          <label for="image">Upload file</label>
+          <input type="file" name="image" id="image" accept="image/*">
+
+          <br><br>
+      
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Favorites</legend>
+
+            <label for="color">Favorites color</label>
+            <input type="checkbox" name="">
+
+            <label for="red">Red</label>
+            <input type="checkbox" name="red">
+
+            <label for="yellow">yellow</label>
+            <input type="checkbox" name="yellow">
+
+            <br><br>
+            <label for="">Favorite food item</label><br>
+            <select name=" item" id="item" multiple>
+       
+                <option> Select food</option>
+
+                <optgroup label="nashta">
+
+                <option value="idly">Idle</option>
+                <option value="dosa">Dosa</option>
+            </optgroup>
+
+            
+            <optgroup label="Non Veg">
+                <option value="biryani">Briyani</option>
+                <option value=" Fried chicke">Fried chicke</option>
+            </optgroup>
+            </select>
+
+            <label for="Subject">Subject</label>
+     <select name="Subject" id="subject" multiple size="2">
+        <option value="maths">Maths</option>
+        <option value="Sciencs">Science</option>
+        <option value="History">History</option>
+        <option value="Civics">Civics</option>
+     </select>
+
+     <br><br>
+
+      <label for="game">Favourite Game</label>
+      <input  name="game" id="game" list="game">
+
+      <datalist id="game">
+
+        <option value="Cricket"></option>
+        <option value="badmintion"></option>
+        <option value="football"></option>
+        <option value="hockey"></option>
+
+      </datalist>
+
+      <select>
+        <option value="">option1</option>
+       </select>
+         
+       <datalist>
+        <option value=""option></option>
+       </datalist>
+        </fieldset>
+
+      <br>
+        
+      <button type="submit"> Submit</button>
+      <button type="reset"> Reset</button>
+    </form>
+
+    <br><br>
+
+    
+</body>
+</html>

@@ -1,0 +1,28 @@
+Git
+------------------------------------------
+version control system
+1st time:
+git init --for initlization
+git add . --> for adding files/folder/videos/images
+git commit -m -->for commiting
+git config -global.email "register email"
+git congif -global.username  "username"
+
+git remote add origin  repository link()
+git push origin master  /main--- git push  origin main --force
+
+-----------------------------------------------------------------------
+ froom 2nd time  to same repository
+
+ git add .
+ git commit -m "msg"
+ git origin master
+
+ working on different repository
+
+ git init
+ git add .
+ git commit -m "msg"
+ git remote add origin repository link(page)
+ git push origin master
+ ----------------------------------------------------------
